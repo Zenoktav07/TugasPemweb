@@ -1,0 +1,450 @@
+/* App.js */
+main {
+    background-color: white;
+}
+
+.Footer {
+background-color: rgb(59, 202, 121);
+padding: 20px;
+color: white;
+text-align: center;
+}
+
+
+
+/* Header.js */
+.header {
+  background-color: rgb(59, 202, 121);
+    color: rgb(255, 255, 255);
+    padding: 10px 0;
+  }
+  
+  .header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .logo {
+    font-family: "Poetsen One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 1.6rem;
+  }
+  
+  .navigation {
+    display: flex;
+  }
+  
+  .nav-list {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .nav-item {
+    margin-right: 30px;
+  }
+  
+  .nav-item:last-child {
+    margin-right: 0;
+  }
+  
+  .nav-item a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-size: 1rem;
+    transition: color 0.3s ease;
+  }
+  
+  .nav-item a:hover {
+    color: rgb(120, 228, 167);
+  }
+  
+
+
+
+
+/* Home.js */
+.home-section {
+  background: linear-gradient(rgba(0, 0, 0, 0.452), rgba(0, 0, 0, 0.288)), url('./images/masjidimg.png');
+  background-size: cover;
+  background-position: center;
+  color: #fff;
+  padding: 100px 20px;
+}
+
+.home-content {
+  color: white;
+  margin-left: 100px;
+  max-width: 500px;
+  /* margin: 0 auto; */
+}
+
+.home-content h2 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+}
+
+.home-content p {
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+  font-size: 1.1rem;
+  margin-bottom: 30px;
+  line-height: 1.7;
+}
+
+.cta-button {
+  background-color: rgb(59, 202, 121);
+  color: #fafafa;
+  border: none;
+  padding: 10px 20px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.cta-button:hover {
+  background-color: rgb(22, 172, 87);
+}
+
+
+
+
+/* Fasility.js */
+.Fasility {font-family: "Poppins", sans-serif;
+  font-style: normal;
+    width: 85%;
+    text-align: center;
+    /* max-height: 200px; */
+    padding: 0 50px;
+    margin: -60px auto;
+    background-color: white;
+    box-shadow: 0 3px 5px rgba(0, 0, 0, 0.349);
+}
+
+.Fasility .content {
+  padding-top: 15px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.Fasility .List {
+  max-width: 200px;
+  padding: 20px 0;
+}
+
+.Fasility .List h5 {
+  font-weight: 600;
+  font-family: sans-serif;
+  font-size: 18px;
+  margin-top: 5px;
+}
+
+.Fasility .List p {
+  margin-top: -20px;
+  font-size: 16px;
+}
+
+.Fasility .List img {
+  border-radius: 10px;
+  /* background-color: #FFCA28; */
+  width: 70px;
+}
+
+
+/* JadwalShalat.js */
+.jadwal-shalat-container {
+  margin: 0 auto;
+  padding: 10px 0 50px 0;
+  /* border: 2px solid #ccc; */
+  border-radius: 10px;
+  background: linear-gradient(rgb(59, 202, 121), rgb(123, 221, 165));
+}
+
+.jadwal-shalat-container h2 {
+  color: white;
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  text-align: center;
+  font-size: 1.7rem;
+}
+
+.jadwal-shalat-table {
+  margin: 0 auto;
+  width: 70%;
+  border-collapse: collapse;
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.349);
+}
+
+.jadwal-shalat-table th,
+.jadwal-shalat-table td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: center;
+}
+
+.jadwal-shalat-table th {
+  color: white;
+  background-color: rgb(27, 190, 98);
+}
+
+.jadwal-shalat-table tr {
+  background-color: #f2f2f2;
+}
+
+.jadwal-shalat-table tr:hover {
+  background-color: #ddd;
+}
+
+
+
+/* Event.js */
+.event-section {
+  font-family: "Poppins", sans-serif;
+  /* background-color: rgb(248, 241, 175); */
+  text-align: center;
+  padding: 20px;
+  border-top-right-radius: 50px;
+  border-top-left-radius: 50px;
+}
+
+.event-section h2 {
+  font-size: 1.6rem;
+}
+
+.event-section .event-card p {
+  font-family: "Frank Ruhl Libre", serif;
+  font-optical-sizing: auto;
+  margin-top: -10px;
+  font-size: 1.3rem;
+  text-align: left;
+}
+
+.card-container {
+  display: flex;
+  justify-content: center;
+  margin: 20px auto;
+  max-width: 80%;
+}
+
+.event-card {
+  flex: 1;
+  /* margin: 0 10px; */
+  padding: 20px;
+  /* border: 1px solid #ddd; */
+}
+
+.event-card img {
+  width: 100%;
+  border-top-right-radius: 30px;
+  border-bottom-left-radius: 30px;
+  margin-bottom: 10px;
+  max-width: 300px;
+  max-height: 200px;
+}
+
+.event-card p {
+  font-size: 16px;
+}
+
+
+
+/* Gallery.js */
+.gallery {
+  margin: 20px 0;
+}
+
+.gallery h2 {
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 1.7rem;
+}
+
+.grid-container {
+  display: grid;
+  justify-content: center;
+  margin: 0 auto;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 10px;
+  max-width: 80%;
+}
+
+.grid-item {
+  overflow: hidden;
+  border-radius: 8px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.grid-item img {
+  width: 100%;
+  height: 100%;
+  transition: transform 0.3s ease-in-out;
+}
+
+.grid-item:hover img {
+  transform: scale(1.1);
+}
+
+
+
+
+
+
+
+
+/* Testimoni.jss */
+.testimonials {
+  margin-top: 60px;
+  padding: 100px 0;
+  color: rgb(255, 255, 255);
+  background: linear-gradient(rgb(123, 221, 165), rgb(59, 202, 121));
+    text-align: center;
+  }
+
+.testimonials h2 {
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 1.7rem;
+}
+  
+  .carousel {
+    position: relative;
+    width: 100%;
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  .slide {
+    display: none;
+  }
+  
+  .slide.active {
+    display: block;
+  }
+  
+  .testimonial-text {
+    font-style: italic;
+    font-size: 18px;
+  }
+  
+  .testimonial-author {
+    font-style: italic;
+    font-size: 14px;
+    color: white;
+  }
+  
+  .prev,
+  .next {
+    position: absolute;
+    top: 70%;
+    transform: translateY(-50%);
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    font-size: 20px;
+    color: white;
+  }
+  
+  .prev {
+    left: 0px;
+  }
+  
+  .next {
+    right: 0px;
+  }
+  
+
+
+
+/* About.js */
+.about-container {
+    /* background-color: #333333; */
+    color: black;
+    display: flex;
+    /* align-items: center; */
+    justify-content: center;
+    padding: 70px 20px;
+    margin-top: 70px;
+  }
+  
+  .image-container {
+    flex: 1.5;
+    text-align: center;
+  }
+  
+  .image-container img {
+    width: 80%; /* Atur sesuai kebutuhan */
+    height: 400px; /* Menetapkan tinggi untuk membuatnya menjadi kotak */
+    object-fit: cover; /* Menjaga gambar agar tidak terdistorsi */
+    border-radius: 10px; /* Atur sudut sesuai keinginan */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .text-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* justify-content: center; */
+    flex: 2;
+    padding: 0 20px;
+    font-family: "Poppins", sans-serif;
+  }
+  
+  .text-container h2 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+  }
+  
+  .text-container p {
+    font-size: 12px;
+    line-height: 1.5;
+  }
+  
+
+
+
+/* Contact.jss */
+.location-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+    height: 60vh;
+  }
+
+  .location-section h2 {
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 1.7rem;
+  }
+  
+  .location-info {
+    flex: 1;
+    margin-left: 50px;
+  }
+  
+  .map-container {
+    flex: 1;
+    margin-right: 70px;
+  }
+  
+  .map-container iframe {
+    width: 100%;
+    height: 300px;
+  }
+  
+
+
+
